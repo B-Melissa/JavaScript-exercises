@@ -169,12 +169,22 @@ findMax(numbers2)
 
 // E8 without a function
 
+// let array = [12, 28, 33, 7, 3, 1];
+// let smallest = array[0];
+
+// for (let i = 0; i < array.length; i++) {
+//     if (smallest > array[i]) {
+//         smallest = array[i];
+//     }
+// }
+// console.log(smallest);
+
 let array = [12, 28, 33, 7, 3, 1];
-let smallest = array[0];
+let highest = array[0];
 
 for (let i = 0; i < array.length; i++) {
-    if (smallest > array[i]) {
-        smallest = array[i];
+    if (highest > array[i]) {
+        highest = array[i];
     }
 }
-console.log(smallest);
+console.log(highest);
