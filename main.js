@@ -3,9 +3,9 @@
 //Put your name inside string quotes, e.g., "my name".
 //Then add a line of code to print the variable name to the console after the previous message.
 
-var myName = "Melissa"; 
+// var myName = "Melissa";
 
-console.log("My name is " + myName + ".");
+// console.log("My name is " + myName + ".");
 
 
 /*Exercise 2
@@ -14,9 +14,9 @@ Add a line to print that variable in the console. Save the file and reload the p
 You should see your name and your age.
 */
 
-var age = 26; 
+// var age = 26;
 
-console.log("I am " + age + " years old.");
+// console.log("I am " + age + " years old.");
 
 //Exercise 3
 //Create a variable called juliaAge with a value 32.
@@ -24,8 +24,8 @@ console.log("I am " + age + " years old.");
 //Print the value of ageDiff.
 // You should see your age and the age difference. If you are younger than Julia, you should see a negative number.
 
-var juliaAge = 32;
-var ageDiff = age - juliaAge
+// var juliaAge = 32;
+// var ageDiff = age - juliaAge
 
 //console.log(ageDiff); This used to be part of E3
 
@@ -49,19 +49,19 @@ Write a conditional that compares your age with Julia's age.
 This conditional will need to test if you are older, younger, or the same age, and print, appropriately.
 either "Julia is older than you", "Julia is younger than you", or "You have the same age as Julia".
 */
-var age = 32; 
-var juliaAge = 32;
-if (age < juliaAge) {
-    result = "Julia is older than you.";
-} else if (age > juliaAge) {
-    result = "Julia is younger than you.";
-} else {
-    result = "You have the same age as Julia.";
-}
-console.log(result);
+// "var age = 32;
+// var juliaAge = 32;
+// if (age < juliaAge) {
+//     result = "Julia is older than you.";
+// } else if (age > juliaAge) {
+//     result = "Julia is younger than you.";
+// } else {
+//     result = "You have the same age as Julia.";
+// }
+// console.log(result);
 
 
-//Exercise 6 - Sorting an Array and "for loop"
+// //Exercise 6 - Sorting an Array an"d "for loop"
 
 // const PurplePhoenix = ["Marta", "Alireza", "Sonja", "Sabir", "Mila", "Phouc", "Raul", "Melissa"];
 // PurplePhoenix.sort();
@@ -136,34 +136,34 @@ console.log(result);
 //    return lowestNumber;
 // }
  
-function findMax(zahl) {
+// function findMax(zahl) {
 
-var maxNumber = zahl[0]
-for (let i = 0; i < zahl.length; i++) {
-    console.log('zahl[i] :>> ', zahl[i]);
-    if (zahl[i] > maxNumber) {
-       console.log("inside if condition")
-       maxNumber = zahl[i]
-    }
+// var maxNumber = zahl[0]
+// for (let i = 0; i < zahl.length; i++) {
+//     console.log('zahl[i] :>> ', zahl[i]);
+//     if (zahl[i] > maxNumber) {
+//        console.log("inside if condition")
+//        maxNumber = zahl[i]
+//     }
    
     
     
-}
-console.log('maxNumber :>> ', maxNumber);
+// }
+// console.log('maxNumber :>> ', maxNumber);
 
-}
+// }
 
-let numbers = [4, 2, 8, 9, 5];
-let numbers2= [400,699,7,8,9,23003]
+// let numbers = [4, 2, 8, 9, 5];
+// let numbers2= [400,699,7,8,9,23003]
  
-findMax(numbers)
-findMax(numbers2)
+// findMax(numbers)
+// findMax(numbers2)
 
 
 
 
 
- console.log("The lowest in the array is: " + lowestNumber); 
+//  console.log("The lowest in the array is: " + lowestNumber);
  
  
 
@@ -179,12 +179,143 @@ findMax(numbers2)
 // }
 // console.log(smallest);
 
-let array = [12, 28, 33, 7, 3, 1];
-let highest = array[0];
+// let array = [12, 28, 33, 7, 3, 1];
+// let highest = array[0];
 
-for (let i = 0; i < array.length; i++) {
-    if (highest > array[i]) {
-        highest = array[i];
-    }
-}
-console.log(highest);
+// for (let i = 0; i < array.length; i++) {
+//     if (highest < array[i]) {
+//         highest = array[i];
+//     }
+// }
+// console.log(highest);
+
+
+
+
+
+
+
+//!e1:
+// var myName = "Melissa";
+// console.log("My name is " + myName + ".");
+//!e2:
+// var age = 26;
+// console.log("I'm " + age + " years old.");
+//!e3:
+// var ageJulia = 32;
+// var myAge = 26;
+// var ageDiff = myAge - ageJulia;
+// console.log(ageDiff);
+//!e4-a:
+
+// var myAge = 26;
+// var randomAge = 21;
+
+// if (myAge > randomAge) {
+//     message = "You are older than " + randomAge + ".";
+
+//  } else {
+//      message ="You are not older than " + randomAge + ".";
+// }
+
+// console.log(message);
+ 
+//!e4-b:
+
+// var myAge = 26;
+
+// if (myAge > 21) {
+//     message = "You are older than 21.";
+
+//  } else {
+//      message ="You are not older than 21.";
+// }
+
+// console.log(message);
+
+
+//!e5:
+
+// var juliaAge = 32;
+// var myAge = 26;
+// var result;
+
+// if (myAge < juliaAge) {
+//      result = "Julia is older than you.";
+// } else if (myAge > juliaAge) {
+//      result = "Julia is younger than you.";
+// } else {
+//      result = "You have the same age as Julia.";
+// }
+// console.log(result);
+
+//!e6:
+
+// const purplePhoenix = ["Marta", "Alireza", "Sonja", "Sabir", "Mila", "Phouc", "Raul", "Melissa"];
+// purplePhoenix.sort();
+
+// for (let i = 0; i < 1; i++)
+    
+// console.log(purplePhoenix[0]); //Prints: Alireza
+// console.log(purplePhoenix[7]); //Prints: Sonja
+// console.log(purplePhoenix); //Prints: (8) and all Names sorted
+
+
+//!e7-forLoop:
+
+//  const purpleAge = [10, 13, 16, 15, 14, 9, 28, 22];
+//  purpleAge.sort(function(a, b) {
+//  return a - b;
+// });
+//  const odds = [];
+
+
+
+// for (let i = 0; i < purpleAge.length; i++)
+//     if (purpleAge[i] % 2 === 1) {        // Change it to: 2 ==== 0 to get the even numbers
+//     odds.push(purpleAge[i]);
+//     }
+//  console.log(odds);
+
+//!e7-whileLoop:
+
+// // Creating an array with ages of students in a class
+// const ages = [20, 19, 22, 23, 21, 18];
+
+// // Initialize the counter and length of the array
+// let i = 0;
+// const len = ages.length;
+
+// // Iterate through the array using a while loop
+// while (i < len) {
+//   // Check if the current age is even
+//   if (ages[i] % 2 === 0) {
+//     // Print the even age
+//     console.log(ages[i]);
+//   }
+//   // Increment the counter
+//   i++;
+// }
+
+
+//!e8:
+
+// let numbers = [3, 8, 2, 6, 3, 78];
+// let lowestNumber = findLowest(numbers);
+
+// function findLowest(numbers) {
+//     let lowestNumber = numbers[0];
+//     for (let i = 1; i < numbers.length; i++) {
+//         if (numbers[i] < lowestNumber) {
+//             lowestNumber = numbers[i];
+//         }
+//     }
+//     return lowestNumber;
+// }
+
+// console.log("The lowest element in the array is: " + lowestNumber);
+
+
+
+
+//!e9:
