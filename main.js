@@ -318,4 +318,62 @@ either "Julia is older than you", "Julia is younger than you", or "You have the 
 
 
 
-//!e9:
+// //!e9:
+// let numbers = [3, 8, 2, 6, 3, 78];
+// let maxNumber = findMax(numbers);
+
+// function findMax(numbers) {
+//     let maxNumber = number[0]; 
+// }
+
+
+//!e10
+// let myArr = [10, 3, 7, 21, 4, 8];
+// printBiggestNumber(myArr); // Output: "The biggest number is: 21"
+
+// function printBiggestNumber(arr) {
+//   let biggestNum = arr[0]; // Assume the first element is the biggest
+//   for (let i = 1; i < arr.length; i++) {
+//     if (arr[i] > biggestNum) {
+//       biggestNum = arr[i]; // Update the biggest number if found
+//     }
+//   }
+//   console.log("The biggest number is: " + biggestNum);
+// }
+
+
+//!e-11
+// let myArr = [3,6,67,6,23,11,100,8,93,0,17,24,7,1,33,45,28,33,23,12,99,100];
+// let myIndex = 1;
+// printElementAtIndex(myArr, myIndex); 
+
+// function printElementAtIndex(arr, index) {
+//   console.log("The element at index " + index + " is: " + arr[index-1]);
+// }
+
+
+//!e-12
+
+// let myColor = ["Red", "Green", "White", "Black"];
+// let joinedString = joinArrayToString(myColor);
+// console.log(joinedString); // Output: "Red, Green, White, Black"
+
+// function joinArrayToString(arr) {
+//   let joinedString = arr.join(', ');
+//   return joinedString;
+// }
+
+//!e-13
+
+let num = 32443;
+let reversedNum = reverseNumber(num);
+console.log(reversedNum); // Output: 34423
+
+function reverseNumber(num) {
+  let reversedNum = 0;
+  while (num > 0) {
+    reversedNum = reversedNum * 10 + num % 10;
+    num = Math.floor(num / 10);
+  }
+  return reversedNum;
+}
